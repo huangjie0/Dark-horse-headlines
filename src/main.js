@@ -3,9 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import 'amfe-flexible' // 用来设置根标签字体大小（移动端适配）
-import { NavBar } from 'vant'
+import { NavBar, Form, Field } from 'vant'
 
 Vue.use(NavBar)
+Vue.use(Form)
+Vue.use(Field)
 
 Vue.config.productionTip = false
 
