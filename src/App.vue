@@ -5,13 +5,12 @@
 </template>
 
 <script>
+import { getAllChannelsAPI } from '@/api/index'
 export default {
   async created () {
-    const res = await new Promise()
-    // const a = 10
+    const res = await getAllChannelsAPI()
     console.log(res)
   }
-
 }
 </script>
 
