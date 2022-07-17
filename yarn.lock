@@ -920,7 +920,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.12.13", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.x", "@babel/runtime@^7.12.13", "@babel/runtime@^7.8.4":
   version "7.18.6"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
   integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
@@ -1295,24 +1295,19 @@
   dependencies:
     "@types/node" "*"
 
-"@vant/icons@^1.8.0":
+"@vant/icons@^1.7.1":
   version "1.8.0"
   resolved "https://registry.npmmirror.com/@vant/icons/-/icons-1.8.0.tgz#36b13f2e628b533f6523a93a168cf02f07056674"
   integrity sha512-sKfEUo2/CkQFuERxvkuF6mGQZDKu3IQdj5rV9Fm0weJXtchDSSQ+zt8qPCNUEhh9Y8shy5PzxbvAfOOkCwlCXg==
 
-"@vant/popperjs@^1.2.1":
+"@vant/popperjs@^1.1.0":
   version "1.2.1"
   resolved "https://registry.npmmirror.com/@vant/popperjs/-/popperjs-1.2.1.tgz#1300c7c98573df577c21d3000712435edb8a877e"
   integrity sha512-qzQlrPE4aOsBzfrktDVwzQy/QICCTKifmjrruhY58+Q2fobUYp/T9QINluIafzsD3VJwgP8+HFVLBsyDmy3VZQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
 
-"@vant/use@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmmirror.com/@vant/use/-/use-1.4.1.tgz#22cdd81c6e2cf8dc746278608a3facbd4fdbcdc7"
-  integrity sha512-YonNN0SuJLEJuqdoMcVAJm2JUZWkHNrW81QzeF6FLyG5HFUGlmTM5Sby7gdS3Z/8UDMlkWRQpJxBWbmVzmUWxQ==
-
-"@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0", "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
   resolved "https://registry.npmmirror.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.2.1.tgz#31624a7a505fb14da1d58023725a4c5f270e6a81"
   integrity sha512-QOi5OW45e2R20VygMSNhyQHvpdUwQZqGPc748JLGCYEy+yp8fNFNdbNIGAgZmi9e+2JHPd6i6idRuqivyicIkA==
@@ -6252,14 +6247,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.npmmirror.com/vant/-/vant-3.5.2.tgz#58f45a442a7b04d8e229ee27ea61415d214504ed"
-  integrity sha512-RR2SEE/ZHH30Z7a9iLBxskvSzs8rwaU2vDhR7HtBjgXreADzGjU75XxV2ogwrtaj2YU1IaBYC8xXjn3VXRxREw==
+vant@^2.12.48:
+  version "2.12.48"
+  resolved "https://registry.npmmirror.com/vant/-/vant-2.12.48.tgz#856cfb36741f331fc9087d97f00e88f7d62c412c"
+  integrity sha512-cTv5V8pYboLrryMAThTu9Nrjroc6z246ktvvRbQ6v+G/yUH2tJia4S/L8RaTCH6btiuoeKZbtFAjkeQUPYeOtQ==
   dependencies:
-    "@vant/icons" "^1.8.0"
-    "@vant/popperjs" "^1.2.1"
-    "@vant/use" "^1.4.1"
+    "@babel/runtime" "7.x"
+    "@vant/icons" "^1.7.1"
+    "@vant/popperjs" "^1.1.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
 
 vary@~1.1.2:
   version "1.1.2"
@@ -6283,6 +6280,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npmmirror.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
 vue-loader@^17.0.0:
   version "17.0.0"
