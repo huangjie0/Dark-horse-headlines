@@ -6,7 +6,7 @@
             <img class="logo" src="@/assets/tab_logo.png" alt="">
         </template>
         <template #right>
-          <van-icon name="search" size="18" color="#fff"/>
+          <van-icon name="search" size="0.48rem" color="#fff"/>
         </template>
       </van-nav-bar>
     </div>
