@@ -59,7 +59,7 @@ export default {
         setToken(token)
         Notify({ type: 'success', message: '登录成功了！！！' })
         // 跳转路由页面
-        this.$router.push('/layout')
+        this.$router.replace('/layout')
       } catch (error) {
         // 弹框提示
         Notify({ type: 'danger', message: '账号或密码错误' })
